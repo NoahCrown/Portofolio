@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Source+Code+Pro:wght@400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+
+}
+
+body{
+  background-color: #364853;
+  color: #FFFFFF;
+  margin: 0 20em;
+  
+
+}
+
+/* Nav Bar  */
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+
+  
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 3em;
+}
+
+.nav-item {
+  margin-right: 2em;
+}
+
+/* Hero  */
+
+.hero-container {
+  margin-top: 2em;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.hero-p {
+  width: 70%;
+  margin-top: 1em;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-left: 4.4em;
+}
+
+/* About me  */
+.about-container { 
+  margin-top: 7em;
+  font-family: 'Inconsolata', monospace;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.statement-nav{
+  display: flex;
+  background-color: #0C2939;
+  margin-top: 2em;
+  padding: .7em 1em;
+  border-top-left-radius: .7em;
+  border-top-right-radius: .7em;
+  align-items: center;
+  
+}
+
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 1em;
+  margin-right: .5em;
+
+}
+
+.red-button{
+  background-color: #F96256;
+}
+
+.yellow-button{
+  background-color:#FDBA38 ;
+}
+
+.green-button{
+  background-color: #33C948;
+
+}
+
+.statement-container{
+  background-color: #083248;
+  padding: 1em 2em;
+
+}
+
+
+.about-title {
+  text-align: center;
+  text-decoration: underline;
+  
+}
+
+.statements {
+  margin-top: 3.5em;
+}
+
+.informations {
+  margin-bottom: 2em;
+}
+
+.info-title{
+  font-size: 1.2em;
+  margin-bottom: .5em;
+  font-weight: 400;
+
+
+}
+
+
+
+.info{
+  font-size: 1em;
+  color: #FFFBEB;
+
+}
+
+.info-link{
+  color: #E94560;
+
+}
