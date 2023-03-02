@@ -1,6 +1,13 @@
 const TechnologyUsed = (props) => {
     return (
-        <div className="tech-used"><span className="tech-text">HTML</span></div>
+        <div className="tech-container">
+            {props.tech.map((val) => (
+                <div className="tech-used"><span className="tech-text">{val}</span></div>
+
+            ))}
+             
+        </div>
+        
     )
 }
 

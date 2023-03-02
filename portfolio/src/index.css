@@ -183,8 +183,9 @@ hr {
 
 .project-image {
   display: none;
-  width: 30%;
+  width: 40%;
   aspect-ratio: 1/1;
+  object-fit:contain;
 
 }
 
@@ -213,6 +214,12 @@ hr {
   margin-bottom: 1.6em;
 }
 
+.tech-container{
+  display: flex;
+  justify-content: flex-start;
+  gap: .4em;
+  width: 100%;
+}
 .tech-text {
   font-size: .8rem;
 }
@@ -226,7 +233,11 @@ hr {
 .project-buttons {
   display: flex;
   gap: 1em;
+  width: 50%;
+  position:absolute;
 }
+
+
 
 .live-demo,
 .view-source {

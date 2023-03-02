@@ -1,54 +1,39 @@
-import TechnologyUsed from "./TechnologyUsed"
-
+import ProjectDisplay from "./ProjectDisplay"
 const Projects = () => {
     const projectInfo = [
         {
             title: "Workout Tracker",
-            img: "Src/",
-            description: "Lorem ipsum",
-            techUsed:["HTML","CSS", "JavaScript", "React"],
+            img: "https://user-images.githubusercontent.com/91674419/222504313-fcad0023-39a7-4a91-b77e-ec857deff4f3.png",
+            description: "Our workout tracker simplifies fitness goals with a user-friendly web app. Log workouts with ease, customize plans, view progress with graphs, and integrate with popular apps for seamless tracking.",
+            techUsed: ["HTML", "CSS"],
             linkToDemo: "https//",
-            linkToGithub:"https//",
+            linkToGithub:"https://github.com/NoahCrown/Workout-Tracker",
             
         }
     ]
-
-
     return (
         <>
 
-        
         <h1 className="projects-title ">Projects</h1>
         <hr></hr>
 
 
         <div className="statement-nav">
-                <div className=" circle red-button"></div>
-                <div className=" circle yellow-button"></div>
-                <div className=" circle green-button"></div>
-
+            <div className=" circle red-button"></div>
+            <div className=" circle yellow-button"></div>
+            <div className=" circle green-button"></div>
         </div>
-        <div className="projects-container">
-            <div className="project-container">
-                <img className="project-image" src="https://cdna.artstation.com/p/assets/images/images/057/315/372/large/putri-soekidin-899b0536-d575-4504-a5ff-c6c88569b3ef.jpg?1671283100"></img>
-                <div className="project-info-container">
-                <h2 className="project-name">Title</h2>
-                <p className="project-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ips</p>
-                <div className="tech-container">
-                    <TechnologyUsed/>
-
-                </div>
-                <div className="project-buttons">
-                    <div className="live-demo">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></div>
-                    <div className="view-source">View Source <i class="fa-brands fa-github fa-lg"></i></div>
-                </div>
-                
-                </div>
-                
-
-            </div>
-
-        </div>
+        {projectInfo.map((val) => (
+            <ProjectDisplay
+            title={val.title}
+            img={val.img}
+            desc={val.description}
+            tech={val.techUsed}
+            demo={val.linkToDemo}
+            github={val.linkToGithub}
+            />
+        ))}
+        
         </>
     )
 }
