@@ -73,7 +73,10 @@ const About = () => {
                     type={item.type} />
                 )
             })}
-            <h3> {">"} </h3>
+            <div className="blinking-arrow-container">
+                <h3 className="blinking-arrow"> {">"} </h3>
+
+            </div>
             </div>
             </div>
             

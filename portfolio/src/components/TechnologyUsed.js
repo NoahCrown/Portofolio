@@ -1,6 +1,6 @@
 const TechnologyUsed = (props) => {
     return (
-        <div>{props.tech}</div>
+        <div className="tech-used"><span>HTML</span></div>
     )
 }
 
