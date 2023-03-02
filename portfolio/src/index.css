@@ -10,7 +10,7 @@
 body{
   background-color: #364853;
   color: #FFFFFF;
-  margin: 0 20em;
+  padding: 0 20em;
   
 
 }
@@ -41,16 +41,18 @@ body{
 }
 
 .hero-title {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 400;
+  color: #FAD6A5;
+  margin-bottom: .7em;
+  
 }
 
 .hero-p {
-  width: 70%;
+  width: 80%;
   margin-top: 1em;
   font-size: 1.2rem;
   line-height: 2rem;
-  margin-left: 4.4em;
 }
 
 /* About me  */
@@ -94,7 +96,7 @@ body{
 
 .statement-container{
   background-color: #083248;
-  padding: 1em 2em;
+  padding: 2em;
 
 }
 
@@ -106,7 +108,7 @@ body{
 }
 
 .statements {
-  margin-top: 3.5em;
+  margin-top: .7em;
 }
 
 .informations {

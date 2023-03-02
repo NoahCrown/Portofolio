@@ -13,8 +13,9 @@ const About = () => {
         },
         {
             title:'Noah.contactInfo',
-            info:'[ noahimperium@gmail.com, LinkedIn, GitHub ]',
+            info:'[ "noahimperium@gmail.com", "LinkedIn", "GitHub" ]',
             isClickable: false,
+            type: "list"
 
         },
         {
@@ -27,6 +28,7 @@ const About = () => {
             title: "Noah.interest",
             info: '[ “self-help books”, “gym”, “programming”, “music” ]',
             isClickable: false,
+            type: 'list'
 
         },
         {
