@@ -1,6 +1,19 @@
 import TechnologyUsed from "./TechnologyUsed"
 
 const Projects = () => {
+    const projectInfo = [
+        {
+            title: "Workout Tracker",
+            img: "Src/",
+            description: "Lorem ipsum",
+            techUsed:["HTML","CSS", "JavaScript", "React"],
+            linkToDemo: "https//",
+            linkToGithub:"https//",
+            
+        }
+    ]
+
+
     return (
         <>
 
