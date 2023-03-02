@@ -12,13 +12,6 @@ const About = () => {
             
         },
         {
-            title:'Noah.contactInfo',
-            info:'[ "noahimperium@gmail.com", "LinkedIn", "GitHub" ]',
-            isClickable: false,
-            type: "list"
-
-        },
-        {
             title:'Noah.resume',
             info: '“charlesnoah.pdf”',
             isClickable: true,
@@ -64,6 +57,13 @@ const About = () => {
             </div>
             <div className="statement-container">
             <div className="statements">
+            <div className="informations">
+                <h3 className="info-title"> {">"} Noah.contactInfo</h3>
+                <p className="info">
+                [<a className="info-link">"noahimperium@gmail.com", </a>
+                <a className="info-link">"LinkedIn", </a>
+                <a className="info-link">"GitHub"</a>]</p>
+            </div>
             {informations.map((item) => {
                 return (
                     <Info 
