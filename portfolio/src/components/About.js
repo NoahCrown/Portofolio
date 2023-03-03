@@ -48,7 +48,7 @@ const About = () => {
     return (
         
         
-        <div className="about-container">
+        <div id="about-me" className="about-container">
             <div className="statement-nav">
                 <div className=" circle red-button"></div>
                 <div className=" circle yellow-button"></div>
@@ -60,9 +60,9 @@ const About = () => {
             <div className="informations">
                 <h3 className="info-title"> {">"} Noah.contactInfo</h3>
                 <p className="info">
-                [<a className="info-link">"noahimperium@gmail.com", </a>
-                <a className="info-link">"LinkedIn", </a>
-                <a className="info-link">"GitHub"</a>]</p>
+                [<a target="_blank" href="noahimperium@gmail.com" className="info-link">"noahimperium@gmail.com", </a>
+                <a target="_blank" href="https://www.linkedin.com/in/noah-de-rama-811baa236/" className="info-link">"LinkedIn", </a>
+                <a target="_blank" href="https://github.com/NoahCrown" className="info-link">"GitHub"</a>]</p>
             </div>
             {informations.map((item) => {
                 return (

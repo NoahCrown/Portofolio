@@ -16,8 +16,8 @@ const ProjectDisplay = (props) => {
 
                 </div>
                 <div className="project-buttons">
-                    <a className="live-demo ">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
-                    <a className="view-source">View Source<i class="fa-brands fa-github fa-lg"></i> </a>
+                    <a href={props.demo} target="_blank" className="live-demo ">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    <a href={props.github} target="_blank" className="view-source">View Source<i class="fa-brands fa-github fa-lg"></i> </a>
         
                 </div>
                 
