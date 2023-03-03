@@ -144,6 +144,7 @@ body {
 .info-link {
   color: #E94560;
   cursor: pointer;
+  text-decoration: none;
 
 }
 
